@@ -11,11 +11,13 @@ html {
 .page {
   inline-size: 1200px;
   block-size: 100%;
-  margin: auto;
+  margin: 0 auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  display: flex;
+  align-items: center;
 }
 
 h1,
@@ -35,4 +37,34 @@ fieldset {
 ul,
 ol {
   list-style: none;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  width: 100%;
+}
+
+.search-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content__list {
+  display: flex;
+  flex-direction: column;
+  max-height: 340px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.title {
+  width: 100%;
+}
+
+.content__details {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
 }
