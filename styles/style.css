@@ -67,7 +67,7 @@ fieldset {
 }
 
 .content__list {
-  max-height: 305px;
+  height: 305px;
   overflow: auto;
   position: relative;
   padding-right: 2px;
@@ -127,6 +127,7 @@ fieldset {
   width: 194px;
   height: 103px;
   object-fit: cover;
+  object-position: center;
 }
 
 .content__card-link:focus {
@@ -177,7 +178,7 @@ fieldset {
 .result__video {
   width: 711px;
   height: 386px;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .result__video-container {
